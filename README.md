@@ -1,4 +1,4 @@
-# FFmpeg CUDA Docker API
+ # FFmpeg CUDA Docker API
 
 🚀 **Production-ready FFmpeg with NVIDIA CUDA acceleration in Docker**
 
@@ -141,14 +141,9 @@ ffmpeg-cuda-docker-api/
 ├── ffmpeg_api.py           # Enhanced Flask API with web interface
 ├── start_api.sh            # Production startup script
 ├── gunicorn.conf.py        # Gunicorn production configuration
-├── README.md               # This file
-├── SETUP.md                # Detailed setup instructions
-├── EXAMPLES.md             # Comprehensive usage examples
-├── .gitignore              # Git ignore rules
-└── docs/                   # Additional documentation
-    ├── API.md              # API reference
-    ├── PERFORMANCE.md      # Performance tuning guide
-    └── TROUBLESHOOTING.md  # Common issues and solutions
+
+             # Git ignore rules
+
 ```
 
 ## 🔧 Configuration
@@ -238,13 +233,7 @@ docker logs -f ffmpeg-cuda-api
 docker logs --tail 100 ffmpeg-cuda-api
 ```
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -257,11 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Docker community for containerization best practices
 - Flask team for the excellent web framework
 
-## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ffmpeg-cuda-docker-api/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ffmpeg-cuda-docker-api/discussions)
-- **Documentation**: [Wiki](https://github.com/yourusername/ffmpeg-cuda-docker-api/wiki)
 
 ## 🔗 Related Projects
 
@@ -269,7 +254,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [NVIDIA Video Codec SDK](https://developer.nvidia.com/video-codec-sdk) - Hardware acceleration
 - [Docker](https://www.docker.com/) - Containerization platform
 
----
 
-**⚡ Built for speed, designed for production, optimized for NVIDIA RTX 4090** ⚡
 
